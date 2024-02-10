@@ -1,6 +1,6 @@
 console.log("helo");
 
-import { HALO } from "vanta/dist/vanta.halo.min.js";
+//import { HALO } from "vanta/dist/vanta.halo.min.js";
 
 VANTA.HALO({
   el: "#canvas-4",
