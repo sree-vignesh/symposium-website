@@ -16,9 +16,23 @@
     />
   </head>
   <body>
-    <script type="module" src="/pages/learnmore.js"></script>
+<!--     <script type="module" src="/pages/learnmore.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
 
+    <script>VANTA.HALO({
+  el: "#canvas-4",
+  mouseControls: true,
+  touchControls: false,
+  // gyroControls: true,
+  minHeight: 200.0,
+  minWidth: 200.0,
+  amplitudeFactor: 1.4,
+  xOffset: 0.26,
+  backgroundColor: 0x06142a,
+  baseColor: 0xf2ff0,
+  // color: "aqua",
+});</script>
     <div class="section" id="canvas-4">
       <header id="header">
         <a href="/">
