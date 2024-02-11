@@ -11,16 +11,17 @@
   <!-- <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script> -->
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script> -->
 
-  <!-- <link href="./style2.css" rel="stylesheet" /> -->
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/assets/logo-techno-SvQqYOBj.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script type="module" crossorigin src="/assets/index-O9OLgf0X.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-8fheh0R0.css">
+  <script type="module" crossorigin src="/assets/index-a61l1hzi.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-FWLmiA3M.css">
 </head>
 
 <body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
+
 
   <!-- <script src="./script-vanta.js"></script> -->
   <div class="wrapper">
@@ -39,11 +40,28 @@
       <div class="skill-fest">#skillfest</div>
 
       <div class="push"></div>
-      <p id="demo"></p>
+
+
+      <div id="timer">
+        <div id="dContainer">
+          <div id="days"></div><span>Days</span>
+        </div>
+        <div id="hContainer">
+          <div id="hours"></div><span>Hours</span>
+        </div>
+        <div id="mContainer">
+          <div id="minutes"></div><span>Minutes</span>
+        </div>
+        <div id="sContainer">
+          <div id="seconds"></div><span>Seconds</span>
+        </div>
+      </div>
+
+
 
       <div class="push"></div>
 
-      <button type="button" id="scroll-down" class="glow-on-hover" >come, join us !</button>
+      <button type="button" id="scroll-down" class="glow-on-hover" onclick="location.href='./pages/eventpage/index.html'">come, join us !</button>
       <!-- <div id="scroll-down" >
           <img src="assets/arrow-thin.svg" class="arrow filter-blue" /> come
           join us !
@@ -53,11 +71,12 @@
     </div>
     <div class="section" id="canvas-2">
       <div class="dept">
-        We, the Department of <br> <span id="dept-name">Computer Science <br> & Business Systems </span>invite you
-        to our symposium<span id="dept-name">!</span>
+        We, the Department of <br> <span id="dept-name">Computer Science <br> & Business Systems <br></span>welcomes you
+        <span id="dept-name">!</span>
         <div class="spacer"></div>
 
-        <button type="button " id="scroll-down" class="glow-on-hover" onclick="location.href='./pages/learnmore.html'">Learn more !</button>
+        <button type="button " id="scroll-down" class="glow-on-hover"
+          onclick="location.href='./pages/learnmore.html'">Learn more !</button>
       </div>
       <div class="spacer"></div>
       <!-- <div id="canvas-2"></div> -->
@@ -68,8 +87,8 @@
       <div class="spacer"></div>
 
       <div id="coords">
-        <div class="coord-title">Co-ordinators  </div>
-          <div class="coord-list"><br>cord-1<br>cord-2<br>cord-3<br></div>
+        <div class="coord-title">Co-ordinators </div>
+        <div class="coord-list"><br>cord-1<br>cord-2<br>cord-3<br></div>
       </div>
       <div class="spacer"></div>
       <!-- <div class="spacer"></div> -->
@@ -77,17 +96,19 @@
       <div id="socials">Catch up with us on </div>
 
       <div id="icons">
-        <a href="https://www.instagram.com/technovation_rec?igsh=MWlicnBkN2twdjkzaQ=="><img src="/assets/instagram-R4sGDIWt.png" class="footer-logo" ></a>
-        <a href="mailto: technovation@rajalakshmi.edu.in"><img src="/assets/mail-vxIbwwna.png" class="footer-logo"></div></a>
-        <!-- <div class="spacer"></div> -->
-      
-        <div class="contact-details">Rajalakshmi Engineering College,<br>
+        <a href="https://www.instagram.com/technovation_rec?igsh=MWlicnBkN2twdjkzaQ=="><img
+            src="/assets/instagram-R4sGDIWt.png" class="footer-logo"></a>
+        <a href="mailto: technovation@rajalakshmi.edu.in"><img src="/assets/mail-vxIbwwna.png" class="footer-logo">
+      </div></a>
+      <!-- <div class="spacer"></div> -->
+
+      <div class="contact-details">Rajalakshmi Engineering College,<br>
         Rajalakshmi Nagar Thandalam,<br> Chennai - 602 105.<br>
         Phone : +91-44-67181111, 67181112</div>
       <div class="spacer"></div>
       <div class="spacer"></div>
-
-      <div id="credits">Have a 🥀</div>
+        <a href="./pages/creditspage/index.html">
+      <div id="credits" >Have a 🥀</div></a>
       <div class="spacer"></div>
     </div>
   </div>
