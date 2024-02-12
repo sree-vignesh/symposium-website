@@ -159,11 +159,13 @@ header {
   -webkit-background-clip: text;
   background-clip: text;
   font-weight: 400;
-  font-size: 2.5rem;
+  font-size: 4.5rem;
   animation: move-bg 8s infinite ease;
 }
 a {
-  color: #f2f0f2;
+  color: #fca651;
+  font-family: "Nova Mono", monospace;
+  text-decoration: none;
 }
 @keyframes move-bg {
   to {

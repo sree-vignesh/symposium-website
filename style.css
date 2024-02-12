@@ -301,6 +301,9 @@ canvas {
   /* font-weight: 800; */
   animation: move-bg 8s infinite linear;
 }
+#coords {
+  text-align: center;
+}
 .coord-title {
   --bg-size: 400%;
   --color-one: hsl(327, 100%, 50%);
