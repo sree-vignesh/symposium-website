@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles-eventpage.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap" rel="stylesheet">
+
+  <!-- <script type="module" crossorigin src="index.js"></script> -->
+  <!-- <script type="module" crossorigin src="balls.js"></script> -->
+</head>
+
+<body>
+  <!-- <link rel="stylesheet" crossorigin href="styles.scss" /> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+  <header>
+    <h1 class="animate-charcter">EVENTS</h1>
+    <h3 class="sch">
+      <a href="./TECHNOVATION-EVENT-SCHEDULE.pdf">Get the
+        schedule</a>
+    </h3>
+  </header>
+  <!-- <script type="module" src="/main.js"></script> -->
+  <div class="canvas-vanta"></div>
+  <!-- <canvas class="orb-canvas"></canvas>  -->
+  <canvas id="introduction-canvas" width="auto" height="400px"></canvas>
+  <!-- <div class="introduction-canvas--overflow"></div> -->
+  <!-- <header>
+      <h1 class="animate-charcter">EVENTS</h1>
+    </header> -->
+  <!-- <div class="background">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div> -->
+
+  <!-- <script src="balls.js"></script> -->
+  <!-- <div class="bg"></div>s -->
+  <!-- <div class="container">
+    <div class="sky">
+      <div class="stars"></div>
+      <div class="stars1"></div>
+      <div class="stars2"></div>
+      <div class="shooting-stars"></div>
+    </div>  -->
+  <!-- </div> -->
+
+  <!-- <div class="box-container"> -->
+  <div class="box-item">
+    <div class="flip-box">
+      <div class="flip-box-front text-center" style="background-image: url(./img/img1.jpg)">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Biz Blitz</h3>
+          <!-- <p>
+                Don't start a business. Find a problem. Solve a problem. The
+                business comes second
+              </p> -->
+          <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img" />
+        </div>
+      </div>
+      <div class="flip-box-back text-center" style="background-image: url(./img/img1.jpg)">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Biz Blitz</h3>
+          <p>Unlocking Potential - Unleashed!!.</p>
+          <button class="flip-box-button" onclick="location.href='./Pages/BizBlitz.html'">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="box-item">
+    <div class="flip-box">
+      <div class="flip-box-front text-center" style="background-image: url(./img/img2.jpg)">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Shark Tank</h3>
+          <!-- <p>A short sentence describing this callout is.</p> -->
+          <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img" />
+        </div>
+      </div>
+      <div class="flip-box-back text-center" style="background-image: url(./img/img2.jpg)">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Shark Tank</h3>
+          <p>"Dive with Success with Sharks!!".</p>
+          <button class="flip-box-button" onclick="location.href='./Pages/SharkTank.html'">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="box-item">
+    <div class="flip-box">
+      <div class="flip-box-front text-center filter-" style="background-image: url(./img/img3.jpg)">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Automate Fiesta</h3>
+          <!-- <p>A short sentence describing this callout is.</p> -->
+          <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img" />
+        </div>
+      </div>
+      <div class="flip-box-back text-center" style="background-image: url(./img/img3.jpg)">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Automate Fiesta</h3>
+          <p>Automate Today, Thrive Tomorrow!!</p>
+          <button class="flip-box-button" onclick="location.href='./Pages/AutomateFiesta.html'">Learn more</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="box-item">
+    <div class="flip-box">
+      <div class="flip-box-front text-center filter-" style="background-image: url(./img/img4.jpg)">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Bug Busters</h3>
+          <!-- <p>A short sentence describing this callout is.</p> -->
+          <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img" />
+        </div>
+      </div>
+      <div class="flip-box-back text-center" style="background-image: url(./img/img4.jpg)">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Bug Busters</h3>
+          <p>Get ready to LOL!!</p>
+          <button class="flip-box-button" onclick="location.href='./Pages/BugBusters.html'">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="box-item">
+    <div class="flip-box">
+      <div class="flip-box-front text-center filter-" style="background-image: url(./img/img5.jpg)">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Click Story Repeat</h3>
+          <!-- <p>A short sentence describing this callout is.</p> -->
+          <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img" />
+        </div>
+      </div>
+      <div class="flip-box-back text-center" style="background-image: url(./img/img5.jpg)">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Click Story Repeat</h3>
+          <p>Click your story, watch it unfold !</p>
+          <button class="flip-box-button" onclick="location.href='./Pages/ClickStoryRepeat.html'">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="box-item">
+    <div class="flip-box">
+      <div class="flip-box-front text-center filter-" style="background-image: url(./img/img6.jpg)">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Techscape</h3>
+          <!-- <p>A short sentence describing this callout is.</p> -->
+          <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img" />
+        </div>
+      </div>
+      <div class="flip-box-back text-center" style="background-image: url(./img/img6.jpg)">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Techscape</h3>
+          <p>Crack and Escape the room</p>
+          <button class="flip-box-button" onclick="location.href='./Pages/Techscape.html'">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="box-item">
+    <div class="flip-box">
+      <div class="flip-box-front text-center filter-" style="background-image: url(./img/img7.jpg)">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Techsprint</h3>
+          <!-- <p>A short sentence describing this callout is.</p> -->
+          <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img" />
+        </div>
+      </div>
+      <div class="flip-box-back text-center" style="background-image: url(./img/img7.jpg)">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Techsprint</h3>
+          <p>Speeding beyond the boundaries</p>
+          <button class="flip-box-button" onclick="location.href='./Pages/Techsprint.html'">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="box-item">
+    <div class="flip-box">
+      <div class="flip-box-front text-center filter-" style="background-image: url(./img/img8.jpg)">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Design Dynamo</h3>
+          <!-- <p>A short sentence describing this callout is.</p> -->
+          <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img" />
+        </div>
+      </div>
+      <div class="flip-box-back text-center" style="background-image: url(./img/img8.jpg)">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Design Dynamo</h3>
+          <p>Elevate aesthetic, Ride the dynamic wave</p>
+          <button class="flip-box-button" onclick="location.href='./Pages/DesignDynamo.html'">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="box-item">
+    <div class="flip-box">
+      <div class="flip-box-front text-center filter-" style="background-image: url(./img/img9.jpg)">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">60-Second Spotlight</h3>
+          <!-- <p>A short sentence describing this callout is.</p> -->
+          <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img" />
+        </div>
+      </div>
+      <div class="flip-box-back text-center" style="background-image: url(./img/img9.jpg)">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">60-Second Spotlight</h3>
+          <p>Elevate your story in the spotlight</p>
+          <button class="flip-box-button" onclick="location.href='./Pages/The60.html'">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="box-item">
+    <div class="flip-box">
+      <div class="flip-box-front text-center filter-" style="background-image: url(./img/img10.jpg)">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Code Quest</h3>
+          <!-- <p>A short sentence describing this callout is.</p> -->
+          <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img" />
+        </div>
+      </div>
+      <div class="flip-box-back text-center" style="background-image: url(./img/img10.jpg)">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Code Quest</h3>
+          <p>Give your hand, Lets make it together</p>
+          <button class="flip-box-button" onclick="location.href='./Pages/CodeQuest.html'">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- </div> -->
+
+  <!-- svg -->
+
+
+
+  </div>
+  <script>VANTA.BIRDS({
+      el: ".canvas-vanta",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.0,
+      minWidth: 200.0,
+      scale: 1.0,
+      scaleMobile: 1.0,
+      backgroundColor: 0x653d95,
+      colorMode: "variance",
+    });</script>
+</body>
+
+</html>

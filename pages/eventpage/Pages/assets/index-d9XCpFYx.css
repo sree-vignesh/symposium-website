@@ -13,6 +13,8 @@
     box-sizing: border-box;
     font-family: 'Poppins';
     line-height: 1.5;
+    text-align: justify;
+    text-justify: inter-word;
   }
   
   html {
@@ -33,6 +35,9 @@
   .hy{
     font-family: 'Josefin Sans';font-size: 20px;
   }
+  /* .logot{
+    margin-right: 20rem;
+  } */
   
   .orb-canvas {
     position: fixed;
@@ -161,6 +166,9 @@
     transition: background-color 0.5s ease;
     cursor:context-menu;
   }
+  /* .prereq1{
+    margin-left: 2rem;
+  } */
   .shark{
     height: 22vh;
     position: relative;

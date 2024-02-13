@@ -145,8 +145,8 @@ header {
   /* font-size: 3rem; */
   opacity: 100%;
   --bg-size: 300%;
-  --color-one: hsl(327, 100%, 50%);
-  --color-two: hsl(212, 100%, 50%);
+  --color-one: hsl(216, 71%, 55%);
+  --color-two: hsl(204, 58%, 80%);
   /* font-size: clamp(3rem, 25vmin, 8rem); */
   background: linear-gradient(
       45deg,
@@ -210,9 +210,21 @@ html {
   width: 70%;
 }
 
-@media screen and (min-width: 1380px) {
+@media screen and (min-width: 768px) {
   .box-container {
     flex-direction: row;
+  }
+  .newsch {
+    margin-right: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sch {
+    display: flex;
+    flex-direction: column;
+  }
+  .space {
+    margin-right: 100px;
   }
 }
 
@@ -335,6 +347,7 @@ html {
 
 .flip-box-header {
   font-size: 34px;
+  align-content: center;
   text-shadow: 0 0 10px rgba(11, 7, 6, 0.981);
 }
 .flip-box p {
@@ -351,6 +364,11 @@ html {
 } */
 .sch::h3 .animate-text-glow {
   animation: glow-text 2s infinite alternate;
+}
+.newsch {
+  color: #ffc2c1;
+  font-family: monospace;
+  font-size: 1.2rem;
 }
 
 @keyframes glow-text {
