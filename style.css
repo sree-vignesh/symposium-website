@@ -190,6 +190,7 @@ canvas {
 }
 #header {
   /* padding-left: 4rem; */
+  /* gap: 10px; */
   margin-top: 2rem;
   margin-left: 1rem;
   min-width: 90vw;
@@ -259,6 +260,7 @@ canvas {
   align-items: center;
   font-family: monospace;
   font-size: 1rem;
+  /* min-height: 100vw; */
 }
 #canvas-2 {
   display: flex;
@@ -347,14 +349,21 @@ canvas {
 }
 #icons {
   padding-bottom: 1rem;
+  white-space: nowrap;
+  align-items: center;
+  display: flex;
+  overflow-y: auto;
+  gap: 1rem;
+  /* flex-direction: row; */
+  /* width: 100%; */
 }
 #socials {
   padding-bottom: 1rem;
 }
 .footer-logo {
   max-height: 2.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  /* padding-left: 1rem; */
+  /* padding-right: 1rem; */
   filter: invert();
 }
 #timer {
@@ -374,6 +383,30 @@ canvas {
   padding-bottom: 0;
   display: inline-block;
 }
+.creators-list a {
+  text-decoration: none;
+  color: aliceblue;
+}
+/* .coord-list {
+  --bg-size: 400%;
+  --color-one: hsl(0, 0%, 100%);
+  --color-two: hsl(0, 0%, 100%);
+
+  background: linear-gradient(
+      90deg,
+      var(--color-one),
+      var(--color-two),
+      var(--color-one)
+    )
+    0 0 / var(--bg-size) 100%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  line-height: 1;
+
+  animation: move-bg 8s infinite linear;
+  z-index: 1;
+} */
 
 /* #scroll-down:before {
   content: "";
