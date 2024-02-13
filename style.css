@@ -23,6 +23,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0);
+  position: fixed;
   /* background: -moz-element(#demo-canvas); */
   /* background-image: url("./assets/bg1.jpg"); */
   /* background: -webkit-canvas(demo-canvas); */
